@@ -4,83 +4,83 @@ import { Dropdown } from "antd";
 import React from "react";
 import { AiOutlineAppstore } from "react-icons/ai";
 
-const servicesCategories = [
-  {
-    id: 1,
-    name: "Information and Communication Technology (HSC)",
-    redirect: "/ict",
-  },
-  {
-    id: 2,
-    name: "Computer Office Applications",
-    redirect: "/ict",
-  },
-  {
-    id: 3,
-    name: "Graphics design",
-    redirect: "/ict",
-  },
-  {
-    id: 4,
-    name: "Web Design and Development",
-    redirect: "/ict",
-  },
-  {
-    id: 5,
-    name: "Computer Compose",
-    redirect: "/ict",
-  },
-  {
-    id: 6,
-    name: "Computer print",
-    redirect: "/ict",
-  },
-  {
-    id: 7,
-    name: "Photostat",
-    redirect: "/ict",
-  },
-  {
-    id: 8,
-    name: "Scanning and Laminating",
-    redirect: "/ict",
-  },
-  {
-    id: 9,
-    name: "Email Services",
-    redirect: "/ict",
-  },
-  {
-    id: 10,
-    name: "Print the result",
-    redirect: "/ict",
-  },
-  {
-    id: 11,
-    name: "E Tin Certificate",
-    redirect: "/ict",
-  },
-  {
-    id: 12,
-    name: "Job Application",
-    redirect: "/ict",
-  },
-  {
-    id: 13,
-    name: "Application for admission",
-    redirect: "/ict",
-  },
-  {
-    id: 14,
-    name: "Birth Registration Application",
-    redirect: "/ict",
-  },
-  {
-    id: 15,
-    name: "Amendment of ID Card",
-    redirect: "/ict",
-  },
-];
+// const servicesCategories = [
+//   {
+//     id: 1,
+//     name: "Information and Communication Technology (HSC)",
+//     redirect: "/ict",
+//   },
+//   {
+//     id: 2,
+//     name: "Computer Office Applications",
+//     redirect: "/ict",
+//   },
+//   {
+//     id: 3,
+//     name: "Graphics design",
+//     redirect: "/ict",
+//   },
+//   {
+//     id: 4,
+//     name: "Web Design and Development",
+//     redirect: "/ict",
+//   },
+//   {
+//     id: 5,
+//     name: "Computer Compose",
+//     redirect: "/ict",
+//   },
+//   {
+//     id: 6,
+//     name: "Computer print",
+//     redirect: "/ict",
+//   },
+//   {
+//     id: 7,
+//     name: "Photostat",
+//     redirect: "/ict",
+//   },
+//   {
+//     id: 8,
+//     name: "Scanning and Laminating",
+//     redirect: "/ict",
+//   },
+//   {
+//     id: 9,
+//     name: "Email Services",
+//     redirect: "/ict",
+//   },
+//   {
+//     id: 10,
+//     name: "Print the result",
+//     redirect: "/ict",
+//   },
+//   {
+//     id: 11,
+//     name: "E Tin Certificate",
+//     redirect: "/ict",
+//   },
+//   {
+//     id: 12,
+//     name: "Job Application",
+//     redirect: "/ict",
+//   },
+//   {
+//     id: 13,
+//     name: "Application for admission",
+//     redirect: "/ict",
+//   },
+//   {
+//     id: 14,
+//     name: "Birth Registration Application",
+//     redirect: "/ict",
+//   },
+//   {
+//     id: 15,
+//     name: "Amendment of ID Card",
+//     redirect: "/ict",
+//   },
+// ];
 const items: MenuProps["items"] = [
   {
     key: "1",
