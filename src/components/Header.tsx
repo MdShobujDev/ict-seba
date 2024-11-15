@@ -67,7 +67,7 @@ function Header() {
         </nav>
       </header>
       {isOpenMenu && (
-        <div className=" absolute transition-all duration-200 ease-linear min-[950px]:hidden  bg-white shadow py-2 w-screen flex flex-col items-center gap-8">
+        <div className=" absolute transition-all duration-200 ease-linear min-[950px]:hidden  bg-white shadow py-2 w-screen flex flex-col items-center gap-8 z-50">
           <div className=" min-[500px]:hidden block">
             <div>
               <DropDown />

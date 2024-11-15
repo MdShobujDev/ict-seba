@@ -1,7 +1,11 @@
+import HeroCarousel from "@/components/HomePage/HeroCarousel";
+import ServicesTab from "@/components/HomePage/ServicesTab";
+
 export default function Home() {
   return (
     <div>
-      <h1>Home page</h1>
+      <HeroCarousel />
+      <ServicesTab />
     </div>
   );
 }

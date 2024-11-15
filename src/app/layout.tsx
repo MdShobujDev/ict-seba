@@ -1,5 +1,7 @@
 import Header from "@/components/Header";
+import { theme } from "@/theme/antd";
 import { AntdRegistry } from "@ant-design/nextjs-registry";
+import { ConfigProvider } from "antd";
 import type { Metadata } from "next";
 import localFont from "next/font/local";
 import "./globals.css";
@@ -26,15 +28,17 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
-      <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
-      >
-        <AntdRegistry>
-          <Header />
-          {children}
-        </AntdRegistry>
-      </body>
-    </html>
+    <ConfigProvider theme={theme}>
+      <html lang="en">
+        <body
+          className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        >
+          <AntdRegistry>
+            <Header />
+            {children}
+          </AntdRegistry>
+        </body>
+      </html>
+    </ConfigProvider>
   );
 }

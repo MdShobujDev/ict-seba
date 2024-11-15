@@ -14,3 +14,19 @@ Services list
 13. ভর্তি আবেদন 
 14. জন্ম নিবন্ধন আবেদন 
 15. আইডি কার্ড সংশোধন
+
+1. Information and Communication Technology (HSC)
+2. Computer Office Applications
+3 Graphics design
+4. Web Design and Development
+5. ComputerCompose
+6. ComputerPrint
+7. Photostat
+8. Scanning and Laminating
+9. EmailServices
+10. Printresult
+11. E Tin Certificate
+12. Job Application
+13. Application for Admission
+14. BirthRegistration Application
+15. Amendment of IDCard
