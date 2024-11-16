@@ -1,3 +1,4 @@
+import Footer from "@/components/Footer";
 import Header from "@/components/Header";
 import { theme } from "@/theme/antd";
 import { AntdRegistry } from "@ant-design/nextjs-registry";
@@ -36,6 +37,7 @@ export default function RootLayout({
           <AntdRegistry>
             <Header />
             {children}
+            <Footer />
           </AntdRegistry>
         </body>
       </html>

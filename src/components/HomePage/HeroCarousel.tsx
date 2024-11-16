@@ -12,12 +12,11 @@ const contentStyle: React.CSSProperties = {
 import Banner1 from "@/../public/images/Hero/Banner1.jpg";
 import Banner2 from "@/../public/images/Hero/Banner2.jpg";
 import Banner3 from "@/../public/images/Hero/Banner3.jpg";
-import Banner4 from "@/../public/images/Hero/Banner4.png";
-import Banner5 from "@/../public/images/Hero/Banner5.png";
+
 import Image from "next/image";
 
 const HeroCarousel: React.FC = () => (
-  <div className=" bg-red-400 w-screen mx-auto overflow-hidden  relative">
+  <div className=" bg-red-400 max-w-7xl mx-auto overflow-hidden w-sc relative">
     <Carousel autoplay>
       <div>
         <Image src={Banner1} alt="Banner-1" style={contentStyle} />
@@ -27,22 +26,6 @@ const HeroCarousel: React.FC = () => (
       </div>
       <div>
         <Image src={Banner3} alt="Banner-3" style={contentStyle} />
-      </div>
-      <div>
-        <Image
-          src={Banner4}
-          alt="Banner-4"
-          className=" w-full"
-          style={contentStyle}
-        />
-      </div>
-      <div>
-        <Image
-          src={Banner5}
-          alt="Banner-5"
-          className="w-full"
-          style={contentStyle}
-        />
       </div>
     </Carousel>
   </div>

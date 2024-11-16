@@ -19,12 +19,12 @@ Services list
 2. Computer Office Applications
 3 Graphics design
 4. Web Design and Development
-5. ComputerCompose
+5. Computer Compose
 6. ComputerPrint
 7. Photostat
 8. Scanning and Laminating
-9. EmailServices
-10. Printresult
+9. Email Services
+10. Print Result
 11. E Tin Certificate
 12. Job Application
 13. Application for Admission
