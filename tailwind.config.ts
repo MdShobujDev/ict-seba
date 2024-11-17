@@ -8,6 +8,9 @@ export default {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        hindSiliguri: ["var(--font-hindSiliguri)"],
+      },
       colors: {
         primary: "#10BBFA",
       },

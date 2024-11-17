@@ -104,8 +104,18 @@ function HeaderTopBar() {
           <FaRegBell />
         </div>
         <div className=" flex items-center gap-5 text-gray-600">
-          <Link href={"/login"}>Login</Link>
-          <Link href={"/register"}>Register</Link>
+          <Link
+            href={"/login"}
+            className="hover:text-primary transition-all duration-200 ease-linear"
+          >
+            লগইন
+          </Link>
+          <Link
+            href={"/register"}
+            className="hover:text-primary transition-all duration-200 ease-linear"
+          >
+            রেজিস্টার
+          </Link>
         </div>
         <div></div>
       </div>
