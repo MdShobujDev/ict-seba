@@ -73,23 +73,6 @@ function Header() {
       </header>
       {isOpenMenu && (
         <div className="sticky top-20  transition-all duration-200 ease-linear min-[950px]:hidden  bg-white shadow py-2 w-full flex flex-col items-center gap-8 z-50">
-          {/* <div className=" min-[500px]:hidden block">
-            <div>
-              <DropDown />
-            </div>
-          </div>
-          <ul className=" flex flex-col items-center gap-1 w-full">
-            {navItems.map((item) => (
-              <Link
-                key={item.id}
-                onClick={() => setIsOpenMenu((pre) => !pre)}
-                className="px-3 text-center py-4 w-full hover:bg-primary/15 transition-all  font-medium"
-                href={item.redirect}
-              >
-                {item.name}
-              </Link>
-            ))}
-          </ul> */}
           <div className="w-full  pr-2">
             <MobileNav />
           </div>

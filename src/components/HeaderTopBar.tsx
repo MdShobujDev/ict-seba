@@ -11,7 +11,7 @@ import { TbCurrencyTaka } from "react-icons/tb";
 
 function HeaderTopBar() {
   const handleChange = (value: { value: string; label: React.ReactNode }) => {
-    console.log(value); // { value: "lucy", key: "lucy", label: "Lucy (101)" }
+    console.log(value);
   };
   return (
     <div className="flex flex-col min-[950px]:flex-row gap-3 py-2 max-w-7xl mx-auto px-5  items-center justify-between">
