@@ -55,170 +55,180 @@ import Photostat from "@/../public/images/Services/Photostat.png";
 import Printresult from "@/../public/images/Services/Printresult.png";
 import Scanning from "@/../public/images/Services/Scanning.png";
 import WebDesign from "@/../public/images/Services/WebDesign.png";
+import styled from "styled-components";
 // import ICT from "@/../public/images/Services/ICT.png";
 const PopularServices = () => {
   return (
-    <div className=" flex items-center gap-y-10 gap-x-20 w-full flex-wrap">
-      <div className=" cursor-pointer flex gap-2 flex-col items-center">
+    <div className=" grid grid-cols-[repeat(auto-fit,_minmax(150px,_1fr))] gap-10 w-full">
+      <Item>
         <Image src={ICT} alt="ict" width={70} />
         তথ্য ও যোগাযোগ প্রযুক্তি ( HSC )
-      </div>
-      <div className="cursor-pointer flex flex-col items-center gap-2 ">
+      </Item>
+      <Item>
         <Image src={COA} alt="COA" width={70} />
         কম্পিউটার অফিস অ্যাপ্লিকেশন
-      </div>
-      <div className="cursor-pointer flex flex-col items-center gap-2 ">
+      </Item>
+      <Item>
         <Image src={GraphicsD} alt="GraphicsD" width={70} />
         গ্রাফিক্স ডিজাইন
-      </div>
-      <div className=" cursor-pointer flex flex-col items-center gap-2 ">
+      </Item>
+      <Item>
         <Image src={Printresult} alt="Printresult" width={70} />
         রেজাল্ট প্রিন্ট
-      </div>
-      <div className="cursor-pointer flex flex-col items-center gap-2 ">
+      </Item>
+      <Item>
         <Image src={ComputerPrint} alt="ComputerPrint" width={70} />
         কম্পিউটার প্রিন্ট
-      </div>
-      <div className="cursor-pointer flex flex-col items-center gap-2 ">
+      </Item>
+      <Item>
         <Image src={Application} alt="Application" width={70} />
         চাকরির আবেদন
-      </div>
-      <div className="cursor-pointer flex flex-col items-center gap-2 ">
+      </Item>
+      <Item>
         <Image src={EmailServices} alt="EmailServices" width={70} />
         ইমেইল সেবা
-      </div>
-      <div className="cursor-pointer flex flex-col items-center gap-2 ">
+      </Item>
+      <Item>
         <Image src={BirthRegistration} alt="BirthRegistration" width={70} />
         জন্ম নিবন্ধন আবেদন
-      </div>
+      </Item>
     </div>
   );
 };
 const newServices = () => {
   return (
-    <div className=" flex items-center  gap-y-10 gap-x-20 w-full flex-wrap">
-      <div className="cursor-pointer flex flex-col items-center gap-2">
+    <div className="grid grid-cols-[repeat(auto-fit,_minmax(150px,_1fr))] gap-10 w-full">
+      <Item>
         <Image src={WebDesign} alt="WebDesign" width={70} />
         ওয়েব ডিজাইন এ্যান্ড ডেভেলপমেন্ট
-      </div>
-      <div className=" cursor-pointer flex flex-col items-center gap-2">
+      </Item>
+      <Item>
         <Image src={Printresult} alt="Printresult" width={70} />
         রেজাল্ট প্রিন্ট
-      </div>
-      <div className="cursor-pointer flex flex-col items-center gap-2">
+      </Item>
+      <Item>
         <Image src={ComputerCompose} alt="ComputerCompose" width={70} />
         কম্পিউটার কম্পোজ
-      </div>
-      <div className="cursor-pointer flex flex-col items-center gap-2">
+      </Item>
+      <Item>
         <Image src={Certificate} alt="Certificate" width={70} />ই টিন
         সার্টিফিকেট
-      </div>
-      <div className="cursor-pointer flex flex-col items-center gap-2">
+      </Item>
+      <Item>
         <Image src={EmailServices} alt="EmailServices" width={70} />
         ইমেইল সেবা
-      </div>
-      <div className="cursor-pointer flex flex-col items-center gap-2">
+      </Item>
+      <Item>
         <Image src={IDCard} alt="IDCard" width={70} />
         আইডি কার্ড সংশোধন
-      </div>
+      </Item>
     </div>
   );
 };
 const mobileServices = () => {
   return (
-    <div className=" flex items-center  gap-y-10 gap-x-20 w-full flex-wrap">
-      <div className="cursor-pointer flex flex-col items-center gap-2">
+    <div className=" grid grid-cols-[repeat(auto-fit,_minmax(150px,_1fr))] gap-10 w-full">
+      <Item>
         <Image src={EmailServices} alt="EmailServices" width={70} />
         ইমেইল সেবা
-      </div>
-      <div className=" cursor-pointer flex flex-col items-center gap-2">
+      </Item>
+      <Item>
         <Image src={Printresult} alt="Printresult" width={70} />
         রেজাল্ট প্রিন্ট
-      </div>
-      <div className="cursor-pointer flex flex-col items-center gap-2">
+      </Item>
+      <Item>
         <Image src={ComputerCompose} alt="ComputerCompose" width={70} />
         কম্পিউটার কম্পোজ
-      </div>
-      <div className="cursor-pointer flex flex-col items-center gap-2">
+      </Item>
+      <Item>
         <Image src={Certificate} alt="Certificate" width={70} />ই টিন
         সার্টিফিকেট
-      </div>
-      <div className="cursor-pointer flex flex-col items-center gap-2">
+      </Item>
+      <Item>
         <Image src={EmailServices} alt="EmailServices" width={70} />
         ইমেইল সেবা
-      </div>
-      <div className="cursor-pointer flex flex-col items-center gap-2">
+      </Item>
+      <Item>
         <Image src={IDCard} alt="IDCard" width={70} />
         আইডি কার্ড সংশোধন
-      </div>
-      <div className=" cursor-pointer flex flex-col items-center gap-2">
+      </Item>
+      <Item>
         <Image src={Printresult} alt="Printresult" width={70} />
         রেজাল্ট প্রিন্ট
-      </div>
-      <div className="cursor-pointer flex flex-col items-center gap-2">
+      </Item>
+      <Item>
         <Image src={ComputerCompose} alt="ComputerCompose" width={70} />
         কম্পিউটার কম্পোজ
-      </div>
+      </Item>
     </div>
   );
 };
 const dobtorServices = () => {
   return (
-    <div className=" flex items-center  gap-y-10 gap-x-20 w-full flex-wrap">
-      <div className="cursor-pointer flex flex-col items-center gap-2">
+    <div className=" grid grid-cols-[repeat(auto-fit,_minmax(150px,_1fr))] gap-10 w-full">
+      <Item>
         <Image src={Scanning} alt="Scanning" width={70} />
         স্ক্যান ও লিমিনেটিং
-      </div>
-      <div className=" cursor-pointer flex flex-col items-center gap-2">
+      </Item>
+      <Item>
         <Image src={Printresult} alt="Printresult" width={70} />
         রেজাল্ট প্রিন্ট
-      </div>
-      <div className="cursor-pointer flex flex-col items-center gap-2">
+      </Item>
+      <Item>
         <Image src={ComputerCompose} alt="ComputerCompose" width={70} />
         কম্পিউটার কম্পোজ
-      </div>
-      <div className="cursor-pointer flex flex-col items-center gap-2">
+      </Item>
+      <Item>
         <Image src={Certificate} alt="Certificate" width={70} />ই টিন
         সার্টিফিকেট
-      </div>
-      <div className="cursor-pointer flex flex-col items-center gap-2">
+      </Item>
+      <Item>
         <Image src={EmailServices} alt="EmailServices" width={70} />
         ইমেইল সেবা
-      </div>
-      <div className="cursor-pointer flex flex-col items-center gap-2">
+      </Item>
+      <Item>
         <Image src={IDCard} alt="IDCard" width={70} />
         আইডি কার্ড সংশোধন
-      </div>
+      </Item>
     </div>
   );
 };
 const EServices = () => {
   return (
-    <div className=" flex items-center  gap-y-10 gap-x-20 w-full flex-wrap">
-      <div className="cursor-pointer flex flex-col items-center gap-2">
+    <div className=" grid grid-cols-[repeat(auto-fit,_minmax(150px,_1fr))] gap-10 w-full">
+      <Item>
         <Image src={Admission} alt="Admission" width={70} />
         ভর্তি আবেদন
-      </div>
-      <div className=" cursor-pointer flex flex-col items-center gap-2">
+      </Item>
+      <Item>
         <Image src={Printresult} alt="Printresult" width={70} />
         রেজাল্ট প্রিন্ট
-      </div>
-      <div className="cursor-pointer flex flex-col items-center gap-2">
+      </Item>
+      <Item>
         <Image src={Photostat} alt="Photostat" width={70} />
         ফটোস্ট্যাট
-      </div>
-      <div className="cursor-pointer flex flex-col items-center gap-2">
+      </Item>
+      <Item>
         <Image src={Certificate} alt="Certificate" width={70} />ই টিন
         সার্টিফিকেট
-      </div>
-      <div className="cursor-pointer flex flex-col items-center gap-2">
+      </Item>
+      <Item>
         <Image src={EmailServices} alt="EmailServices" width={70} />
         ইমেইল সেবা
-      </div>
-      <div className="cursor-pointer flex flex-col items-center gap-2">
+      </Item>
+      <Item>
         <Image src={IDCard} alt="IDCard" width={70} />
         আইডি কার্ড সংশোধন
-      </div>
+      </Item>
     </div>
   );
 };
+
+const Item = styled.div`
+  cursor: pointer;
+  display: flex;
+  gap: 0.5rem;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+`;

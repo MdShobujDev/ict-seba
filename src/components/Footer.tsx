@@ -12,55 +12,54 @@ function Footer() {
   return (
     <footer className=" bg-primary text-white">
       <div>
-        <div className=" grid grid-cols-4 gap-5 px-5 py-3">
-          <div className="">
-            <h2 className=" text-xl">About us</h2>
+        <div className=" grid min-[950px]:grid-cols-5 grid-cols-2 gap-x-5 gap-y-10 px-5 py-3">
+          <div className="col-span-2">
+            <h2 className=" text-xl mb-2">আমাদের সম্পর্কে</h2>
             <p className=" text-sm text-gray-100">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta
-              necessitatibus labore voluptatum! Dolor et officia esse eaque
-              laboriosam ipsam, nulla quis velit?
+              ICT Seba ওয়েব ডিজাইন, অ্যাপ ডেভেলপমেন্ট, ক্লাউড সফটওয়্যারসহ
+              আধুনিক প্রযুক্তি সেবা প্রদানকারী প্রতিষ্ঠান।
             </p>
           </div>
           <div>
-            <h2 className=" text-xl">Additional Links</h2>
+            <h2 className=" text-xl mb-2">গুরুত্বপূর্ণ লিঙ্ক</h2>
             <ul className=" text-sm text-gray-100">
-              <li className=" cursor-pointer hover:underline">Login</li>
-              <li className=" cursor-pointer hover:underline">Register</li>
+              <li className=" cursor-pointer hover:underline">লগইন</li>
+              <li className=" cursor-pointer hover:underline">রেজিস্টার</li>
               <li className=" cursor-pointer hover:underline">
-                Terms & conditions
+                টার্মস এন্ড কন্ডিশন
               </li>
-              <li className=" cursor-pointer hover:underline">About US </li>
               <li className=" cursor-pointer hover:underline">
-                Become instructor
+                আমাদের সম্পর্কে
               </li>
+              <li className=" cursor-pointer hover:underline">প্রশিক্ষক হন</li>
             </ul>
           </div>
           <div>
-            <h2 className=" text-xl">Popular Services</h2>
+            <h2 className=" text-xl mb-2">জনপ্রিয় সেবা</h2>
             <ul className=" text-sm text-gray-100">
               <li className=" cursor-pointer hover:underline">
-                Graphics design
+                গ্রাফিক্স ডিজাইন
               </li>
               <li className=" cursor-pointer hover:underline">
-                Web Design and Development
+                কম্পিউটার অফিস অ্যাপ্লিকেশন
               </li>
               <li className=" cursor-pointer hover:underline">
-                Scanning and Laminating
+                জন্ম নিবন্ধন আবেদন
               </li>
               <li className=" cursor-pointer hover:underline">
-                Email Services
+                ওয়েব ডিজাইন এ্যান্ড ডেভেলপমেন্ট
               </li>
               <li className=" cursor-pointer hover:underline">
-                Computer Compose
+                রেজাল্ট প্রিন্ট
               </li>
               <li className=" cursor-pointer hover:underline">Print Result</li>
               <li className=" cursor-pointer hover:underline">
-                Application for Admission
+                আইডি কার্ড সংশোধন
               </li>
             </ul>
           </div>
           <div>
-            <h2 className=" text-xl">Contact Us</h2>
+            <h2 className=" text-xl mb-2">যোগাযোগ</h2>
             <ul className="text-gray-100">
               <li className="flex items-center gap-1">
                 <FaPhone className="text-blue-800" />
