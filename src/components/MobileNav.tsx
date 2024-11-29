@@ -1,7 +1,8 @@
 import { CollapseProps } from "antd";
+import Link from "next/link";
 import { NavCollapse } from "./NavCollapse ";
 
-function MobileNav() {
+function MobileNav({ handleItemClick }: any) {
   const domainHostingItems: CollapseProps["items"] = [
     {
       key: "1",
@@ -12,9 +13,13 @@ function MobileNav() {
       ),
       children: (
         <div className=" ml-3 flex flex-col  gap-2 divide-y">
-          <li className=" cursor-pointer hover:text-primary transition-all duration-200 ease-linear pt-2">
+          <Link
+            href="/about"
+            onClick={() => handleItemClick()}
+            className=" cursor-pointer hover:text-primary transition-all duration-200 ease-linear pt-2"
+          >
             ওয়েব হোস্টিং CWP
-          </li>
+          </Link>
           <li className=" cursor-pointer hover:text-primary transition-all duration-200 ease-linear pt-2">
             ওয়েব হোস্টিং Cpanel
           </li>

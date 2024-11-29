@@ -1,4 +1,5 @@
 "use client";
+import { motion } from "motion/react";
 import Image from "next/image";
 import Link from "next/link";
 import { useState } from "react";
@@ -12,6 +13,10 @@ function Header() {
 
   const handleClick = () => {
     setIsOpenMenu((pre) => !pre);
+  };
+  const handleItemClick = () => {
+    setIsOpenMenu((pre) => !pre);
+    console.log("first");
   };
 
   const navItems = [
@@ -32,10 +37,9 @@ function Header() {
       </div>
       <header className=" sticky top-0 z-50 shadow">
         <nav className="  bg-white shadow max-w-7xl mx-auto px-5 py-2 flex items-center justify-between">
-          <div>
-            {" "}
+          <Link href="/" className=" cursor-pointer">
             <Image src={Logo} alt="logo" width={150} height={100} />
-          </div>
+          </Link>
           {/* <div className=" min-[500px]:block hidden">
               <div>
                 <DropDown />
@@ -57,11 +61,11 @@ function Header() {
               </ul>
             </div>
 
-            <div className="min-[950px]:block hidden">
+            {/* <div className="min-[950px]:block hidden">
               <div className=" cursor-pointer flex gap-3 items-center text-white bg-primary px-5 py-3 rounded-md font-medium">
                 শেখা শুরু করুন
               </div>
-            </div>
+            </div> */}
           </div>
           <div
             className="min-[950px]:hidden block text-2xl cursor-pointer"
@@ -72,16 +76,21 @@ function Header() {
         </nav>
       </header>
       {isOpenMenu && (
-        <div className="sticky top-20  transition-all duration-200 ease-linear min-[950px]:hidden  bg-white shadow py-2 w-full flex flex-col items-center gap-8 z-50">
+        <motion.div
+          initial={{ scale: 0.8, opacity: 0, y: "-100px" }}
+          animate={{ scale: 1, opacity: 1, y: 0 }}
+          transition={{ type: "spring", ease: "linear", duration: 0.3 }}
+          className="sticky top-20 min-[950px]:hidden bg-white shadow py-2 w-full flex flex-col items-center gap-8 z-50"
+        >
           <div className="w-full  pr-2">
-            <MobileNav />
+            <MobileNav handleItemClick={handleItemClick} />
           </div>
           <div className="w-full px-4">
             <div className=" cursor-pointer text-center text-white bg-primary px-10 py-3 rounded-md font-medium">
               শেখা শুরু করুন
             </div>
           </div>
-        </div>
+        </motion.div>
       )}
     </>
   );

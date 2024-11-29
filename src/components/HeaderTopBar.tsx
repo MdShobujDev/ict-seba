@@ -14,7 +14,7 @@ function HeaderTopBar() {
     console.log(value);
   };
   return (
-    <div className="flex flex-col min-[950px]:flex-row gap-3 py-2 max-w-7xl mx-auto px-5  items-center justify-between">
+    <div className="flex flex-col min-[950px]:flex-row gap-3 py-2 max-w-7xl mx-auto px-5 items-center justify-between">
       {/* left side */}
       <div className=" w-full flex items-center min-[950px]:justify-normal justify-between gap-3 min-[520px]:flex-row flex-col">
         <div className=" flex items-center gap-3">
@@ -96,12 +96,14 @@ function HeaderTopBar() {
         </div>
       </div>
       {/* right side  */}
-      <div className=" flex items-center gap-10">
-        <div className=" text-xl">
-          <MdOutlineLocalGroceryStore />
-        </div>
-        <div className=" text-xl">
-          <FaRegBell />
+      <div className=" flex min-[950px]:justify-end justify-between w-full items-center gap-10">
+        <div className="flex items-center gap-10">
+          <div className=" text-xl">
+            <MdOutlineLocalGroceryStore />
+          </div>
+          <div className=" text-xl">
+            <FaRegBell />
+          </div>
         </div>
         <div className=" flex items-center gap-5 text-gray-600">
           <Link
@@ -117,7 +119,6 @@ function HeaderTopBar() {
             রেজিস্টার
           </Link>
         </div>
-        <div></div>
       </div>
     </div>
   );
