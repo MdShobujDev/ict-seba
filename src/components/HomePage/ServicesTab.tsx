@@ -59,37 +59,37 @@ import styled from "styled-components";
 // import ICT from "@/../public/images/Services/ICT.png";
 const PopularServices = () => {
   return (
-    <div className=" grid grid-cols-[repeat(auto-fit,_minmax(150px,_1fr))] gap-10 w-full">
+    <div className=" grid grid-cols-[repeat(auto-fit,_minmax(150px,_1fr))] gap-8 w-full">
       <Item>
-        <Image src={ICT} alt="ict" width={70} />
+        <Image src={ICT} alt="ict" width={60} />
         তথ্য ও যোগাযোগ প্রযুক্তি ( HSC )
       </Item>
       <Item>
-        <Image src={COA} alt="COA" width={70} />
+        <Image src={COA} alt="COA" width={60} />
         কম্পিউটার অফিস অ্যাপ্লিকেশন
       </Item>
       <Item>
-        <Image src={GraphicsD} alt="GraphicsD" width={70} />
+        <Image src={GraphicsD} alt="GraphicsD" width={60} />
         গ্রাফিক্স ডিজাইন
       </Item>
       <Item>
-        <Image src={Printresult} alt="Printresult" width={70} />
+        <Image src={Printresult} alt="Printresult" width={60} />
         রেজাল্ট প্রিন্ট
       </Item>
       <Item>
-        <Image src={ComputerPrint} alt="ComputerPrint" width={70} />
+        <Image src={ComputerPrint} alt="ComputerPrint" width={60} />
         কম্পিউটার প্রিন্ট
       </Item>
       <Item>
-        <Image src={Application} alt="Application" width={70} />
+        <Image src={Application} alt="Application" width={60} />
         চাকরির আবেদন
       </Item>
       <Item>
-        <Image src={EmailServices} alt="EmailServices" width={70} />
+        <Image src={EmailServices} alt="EmailServices" width={60} />
         ইমেইল সেবা
       </Item>
       <Item>
-        <Image src={BirthRegistration} alt="BirthRegistration" width={70} />
+        <Image src={BirthRegistration} alt="BirthRegistration" width={60} />
         জন্ম নিবন্ধন আবেদন
       </Item>
     </div>
@@ -99,27 +99,27 @@ const newServices = () => {
   return (
     <div className="grid grid-cols-[repeat(auto-fit,_minmax(150px,_1fr))] gap-10 w-full">
       <Item>
-        <Image src={WebDesign} alt="WebDesign" width={70} />
+        <Image src={WebDesign} alt="WebDesign" width={60} />
         ওয়েব ডিজাইন এ্যান্ড ডেভেলপমেন্ট
       </Item>
       <Item>
-        <Image src={Printresult} alt="Printresult" width={70} />
+        <Image src={Printresult} alt="Printresult" width={60} />
         রেজাল্ট প্রিন্ট
       </Item>
       <Item>
-        <Image src={ComputerCompose} alt="ComputerCompose" width={70} />
+        <Image src={ComputerCompose} alt="ComputerCompose" width={60} />
         কম্পিউটার কম্পোজ
       </Item>
       <Item>
-        <Image src={Certificate} alt="Certificate" width={70} />ই টিন
+        <Image src={Certificate} alt="Certificate" width={60} />ই টিন
         সার্টিফিকেট
       </Item>
       <Item>
-        <Image src={EmailServices} alt="EmailServices" width={70} />
+        <Image src={EmailServices} alt="EmailServices" width={60} />
         ইমেইল সেবা
       </Item>
       <Item>
-        <Image src={IDCard} alt="IDCard" width={70} />
+        <Image src={IDCard} alt="IDCard" width={60} />
         আইডি কার্ড সংশোধন
       </Item>
     </div>
@@ -129,35 +129,35 @@ const mobileServices = () => {
   return (
     <div className=" grid grid-cols-[repeat(auto-fit,_minmax(150px,_1fr))] gap-10 w-full">
       <Item>
-        <Image src={EmailServices} alt="EmailServices" width={70} />
+        <Image src={EmailServices} alt="EmailServices" width={60} />
         ইমেইল সেবা
       </Item>
       <Item>
-        <Image src={Printresult} alt="Printresult" width={70} />
+        <Image src={Printresult} alt="Printresult" width={60} />
         রেজাল্ট প্রিন্ট
       </Item>
       <Item>
-        <Image src={ComputerCompose} alt="ComputerCompose" width={70} />
+        <Image src={ComputerCompose} alt="ComputerCompose" width={60} />
         কম্পিউটার কম্পোজ
       </Item>
       <Item>
-        <Image src={Certificate} alt="Certificate" width={70} />ই টিন
+        <Image src={Certificate} alt="Certificate" width={60} />ই টিন
         সার্টিফিকেট
       </Item>
       <Item>
-        <Image src={EmailServices} alt="EmailServices" width={70} />
+        <Image src={EmailServices} alt="EmailServices" width={60} />
         ইমেইল সেবা
       </Item>
       <Item>
-        <Image src={IDCard} alt="IDCard" width={70} />
+        <Image src={IDCard} alt="IDCard" width={60} />
         আইডি কার্ড সংশোধন
       </Item>
       <Item>
-        <Image src={Printresult} alt="Printresult" width={70} />
+        <Image src={Printresult} alt="Printresult" width={60} />
         রেজাল্ট প্রিন্ট
       </Item>
       <Item>
-        <Image src={ComputerCompose} alt="ComputerCompose" width={70} />
+        <Image src={ComputerCompose} alt="ComputerCompose" width={60} />
         কম্পিউটার কম্পোজ
       </Item>
     </div>
@@ -167,27 +167,27 @@ const dobtorServices = () => {
   return (
     <div className=" grid grid-cols-[repeat(auto-fit,_minmax(150px,_1fr))] gap-10 w-full">
       <Item>
-        <Image src={Scanning} alt="Scanning" width={70} />
+        <Image src={Scanning} alt="Scanning" width={60} />
         স্ক্যান ও লিমিনেটিং
       </Item>
       <Item>
-        <Image src={Printresult} alt="Printresult" width={70} />
+        <Image src={Printresult} alt="Printresult" width={60} />
         রেজাল্ট প্রিন্ট
       </Item>
       <Item>
-        <Image src={ComputerCompose} alt="ComputerCompose" width={70} />
+        <Image src={ComputerCompose} alt="ComputerCompose" width={60} />
         কম্পিউটার কম্পোজ
       </Item>
       <Item>
-        <Image src={Certificate} alt="Certificate" width={70} />ই টিন
+        <Image src={Certificate} alt="Certificate" width={60} />ই টিন
         সার্টিফিকেট
       </Item>
       <Item>
-        <Image src={EmailServices} alt="EmailServices" width={70} />
+        <Image src={EmailServices} alt="EmailServices" width={60} />
         ইমেইল সেবা
       </Item>
       <Item>
-        <Image src={IDCard} alt="IDCard" width={70} />
+        <Image src={IDCard} alt="IDCard" width={60} />
         আইডি কার্ড সংশোধন
       </Item>
     </div>
@@ -197,27 +197,27 @@ const EServices = () => {
   return (
     <div className=" grid grid-cols-[repeat(auto-fit,_minmax(150px,_1fr))] gap-10 w-full">
       <Item>
-        <Image src={Admission} alt="Admission" width={70} />
+        <Image src={Admission} alt="Admission" width={60} />
         ভর্তি আবেদন
       </Item>
       <Item>
-        <Image src={Printresult} alt="Printresult" width={70} />
+        <Image src={Printresult} alt="Printresult" width={60} />
         রেজাল্ট প্রিন্ট
       </Item>
       <Item>
-        <Image src={Photostat} alt="Photostat" width={70} />
+        <Image src={Photostat} alt="Photostat" width={60} />
         ফটোস্ট্যাট
       </Item>
       <Item>
-        <Image src={Certificate} alt="Certificate" width={70} />ই টিন
+        <Image src={Certificate} alt="Certificate" width={60} />ই টিন
         সার্টিফিকেট
       </Item>
       <Item>
-        <Image src={EmailServices} alt="EmailServices" width={70} />
+        <Image src={EmailServices} alt="EmailServices" width={60} />
         ইমেইল সেবা
       </Item>
       <Item>
-        <Image src={IDCard} alt="IDCard" width={70} />
+        <Image src={IDCard} alt="IDCard" width={60} />
         আইডি কার্ড সংশোধন
       </Item>
     </div>
@@ -231,4 +231,11 @@ const Item = styled.div`
   flex-direction: column;
   align-items: center;
   text-align: center;
+  background-color: #f3f4f6;
+  padding: 5px;
+  border-radius: 0.375rem;
+  transition: transform 0.3s ease;
+  &:hover {
+    transform: scale(1.1);
+  }
 `;
