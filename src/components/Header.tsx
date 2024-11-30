@@ -60,12 +60,6 @@ function Header() {
                 ))}
               </ul>
             </div>
-
-            {/* <div className="min-[950px]:block hidden">
-              <div className=" cursor-pointer flex gap-3 items-center text-white bg-primary px-5 py-3 rounded-md font-medium">
-                শেখা শুরু করুন
-              </div>
-            </div> */}
           </div>
           <div
             className="min-[950px]:hidden block text-2xl cursor-pointer"
@@ -84,11 +78,6 @@ function Header() {
         >
           <div className="w-full  pr-2">
             <MobileNav handleItemClick={handleItemClick} />
-          </div>
-          <div className="w-full px-4">
-            <div className=" cursor-pointer text-center text-white bg-primary px-10 py-3 rounded-md font-medium">
-              শেখা শুরু করুন
-            </div>
           </div>
         </motion.div>
       )}
