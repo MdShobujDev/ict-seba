@@ -19,17 +19,6 @@ function Header() {
     console.log("first");
   };
 
-  const navItems = [
-    { id: 1, name: "হোম", redirect: "/" },
-    { id: 3, name: "কোর্স ", redirect: "/blog" },
-    { id: 4, name: "ডোমেইন/হোস্টিং", redirect: "/about" },
-    { id: 5, name: "সফটওয়্যার", redirect: "/contact-us" },
-    { id: 6, name: "ই-প্রিন্টিং", redirect: "/contact-us" },
-    { id: 7, name: "সার্ভিসেস", redirect: "/contact-us" },
-    { id: 8, name: "আমাদের সম্পর্কে", redirect: "/contact-us" },
-    { id: 9, name: "যোগাযোগ", redirect: "/contact-us" },
-  ];
-
   return (
     <>
       <div className=" border-b">
@@ -40,24 +29,145 @@ function Header() {
           <Link href="/" className=" cursor-pointer">
             <Image src={Logo} alt="logo" width={150} height={100} />
           </Link>
-          {/* <div className=" min-[500px]:block hidden">
-              <div>
-                <DropDown />
-              </div>
-            </div> */}
           <div className=" flex items-center gap-4">
             <div className=" min-[950px]:block hidden">
               <ul className=" flex items-center gap-2">
-                {navItems.map((item) => (
-                  <li key={item.id}>
-                    <Link
-                      className="px-3 py-5 hover:text-primary transition-all duration-200 ease-linear font-medium"
-                      href={item.redirect}
-                    >
-                      {item.name}
-                    </Link>
-                  </li>
-                ))}
+                <li>
+                  <Link
+                    className="px-3 py-5 hover:text-primary transition-all duration-200 ease-linear font-medium"
+                    href="/"
+                  >
+                    হোম
+                  </Link>
+                </li>
+                <li>
+                  <div className=" cursor-pointer px-3 py-5 hover:text-primary transition-all duration-200 ease-linear font-medium">
+                    ডোমেইন/হোস্টিং
+                  </div>
+                </li>
+                <li className="group">
+                  <div className=" cursor-pointer px-3 py-5 group-hover:text-primary transition-all duration-200 ease-linear font-medium">
+                    সফটওয়্যার
+                  </div>
+                  <div className="hidden group-hover:flex absolute right-0 left-0 bg-primary text-white p-3 items-center justify-between">
+                    <div>
+                      <h2 className="text-lg">ব্যবসায়িক সফটওয়্যার</h2>
+                      <ul className="flex flex-col text-sm mt-2 ml-2 gap-1">
+                        <Link
+                          className=" hover:translate-x-1 transition-all ease-linear duration-150"
+                          href={"/"}
+                        >
+                          ক্লাউড বিজনেস সফটওয়্যার
+                        </Link>
+                        <Link
+                          className=" hover:translate-x-1 transition-all ease-linear duration-150"
+                          href={"/"}
+                        >
+                          পস সফটওয়্যার
+                        </Link>
+                        <Link
+                          className=" hover:translate-x-1 transition-all ease-linear duration-150"
+                          href={"/"}
+                        >
+                          হোম সার্ভিস সফটওয়্যার
+                        </Link>
+                      </ul>
+                    </div>
+                    <div>
+                      <h2 className="text-lg">এডুকেশন রিলেটেড সফটওয়্যার</h2>
+                      <ul className="flex flex-col text-sm mt-2 ml-2 gap-1">
+                        <Link
+                          className=" hover:translate-x-1 transition-all ease-linear duration-150"
+                          href={"/"}
+                        >
+                          ক্লাউড বিজনেস সফটওয়্যার
+                        </Link>
+                        <Link
+                          className=" hover:translate-x-1 transition-all ease-linear duration-150"
+                          href={"/"}
+                        >
+                          পস সফটওয়্যার
+                        </Link>
+                        <Link
+                          className=" hover:translate-x-1 transition-all ease-linear duration-150"
+                          href={"/"}
+                        >
+                          হোম সার্ভিস সফটওয়্যার
+                        </Link>
+                      </ul>
+                    </div>
+                    <div>
+                      <h2 className="text-lg">স্বাস্থ্য চিকিৎসা সফটওয়্যার</h2>
+                      <ul className="flex flex-col text-sm mt-2 ml-2 gap-1">
+                        <li className=" hover:translate-x-1 transition-all ease-linear duration-150">
+                          <Link href={"/"}>ক্লাউড বিজনেস সফটওয়্যার</Link>
+                        </li>
+                        <Link
+                          className=" hover:translate-x-1 transition-all ease-linear duration-150"
+                          href={"/"}
+                        >
+                          পস সফটওয়্যার
+                        </Link>
+                        <Link
+                          className=" hover:translate-x-1 transition-all ease-linear duration-150"
+                          href={"/"}
+                        >
+                          হোম সার্ভিস সফটওয়্যার
+                        </Link>
+                      </ul>
+                    </div>
+                    <div>
+                      <h2 className="text-lg">অন্যান্য সফটওয়্যার</h2>
+                      <ul className="flex flex-col text-sm mt-2 ml-2 gap-1">
+                        <Link
+                          className=" hover:translate-x-1 transition-all ease-linear duration-150"
+                          href={"/"}
+                        >
+                          ক্লাউড বিজনেস সফটওয়্যার
+                        </Link>
+                        <Link
+                          className=" hover:translate-x-1 transition-all ease-linear duration-150"
+                          href={"/"}
+                        >
+                          পস সফটওয়্যার
+                        </Link>
+                        <Link
+                          className=" hover:translate-x-1 transition-all ease-linear duration-150"
+                          href={"/"}
+                        >
+                          হোম সার্ভিস সফটওয়্যার
+                        </Link>
+                      </ul>
+                    </div>
+                  </div>
+                </li>
+
+                <li>
+                  <div className=" cursor-pointer px-3 py-5 hover:text-primary transition-all duration-200 ease-linear font-medium">
+                    সার্ভিসেস
+                  </div>
+                </li>
+                <li>
+                  <div className=" cursor-pointer px-3 py-5 hover:text-primary transition-all duration-200 ease-linear font-medium">
+                    কোর্স
+                  </div>
+                </li>
+                <li>
+                  <Link
+                    className="px-3 py-5 hover:text-primary transition-all duration-200 ease-linear font-medium"
+                    href="/"
+                  >
+                    আমাদের সম্পর্কে
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    className="px-3 py-5 hover:text-primary transition-all duration-200 ease-linear font-medium"
+                    href="/"
+                  >
+                    যোগাযোগ
+                  </Link>
+                </li>
               </ul>
             </div>
           </div>

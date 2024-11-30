@@ -16,7 +16,7 @@ import Banner3 from "@/../public/images/Hero/Banner3.jpg";
 import Image from "next/image";
 
 const HeroCarousel: React.FC = () => (
-  <div className=" bg-red-400 max-w-7xl mx-auto overflow-hidden relative">
+  <div className="  max-w-7xl mx-auto overflow-hidden relative">
     <Carousel autoplay>
       <div>
         <Image src={Banner1} alt="Banner-1" style={contentStyle} />
