@@ -38,9 +38,9 @@ function Reviews() {
               </div>
             </div>
             <p className=" text-sm italic mt-2">
-              "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nam
+              {`"Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nam
               aliquam voluptate nostrum excepturi minima est debitis
-              perferendis?""
+              perferendis?"`}
             </p>
           </div>
 
@@ -62,9 +62,9 @@ function Reviews() {
               </div>
             </div>
             <p className=" text-sm italic mt-2">
-              "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nam
+              {`"Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nam
               aliquam voluptate nostrum excepturi minima est debitis
-              perferendis?""
+              perferendis?"`}
             </p>
           </div>
 
@@ -86,9 +86,9 @@ function Reviews() {
               </div>
             </div>
             <p className=" text-sm italic mt-2">
-              "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nam
+              {`"Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nam
               aliquam voluptate nostrum excepturi minima est debitis
-              perferendis?""
+              perferendis?"`}
             </p>
           </div>
         </EmblaCarousel>
