@@ -14,14 +14,14 @@ function Footer() {
       <div>
         <div className=" grid min-[950px]:grid-cols-5 grid-cols-2 gap-x-5 gap-y-10 px-5 py-3">
           <div className="col-span-2">
-            <h2 className=" text-xl mb-2">আমাদের সম্পর্কে</h2>
+            <h2 className=" text-xl font-medium mb-2">আমাদের সম্পর্কে</h2>
             <p className=" text-sm text-gray-100">
               ICT Seba ওয়েব ডিজাইন, অ্যাপ ডেভেলপমেন্ট, ক্লাউড সফটওয়্যারসহ
               আধুনিক প্রযুক্তি সেবা প্রদানকারী প্রতিষ্ঠান।
             </p>
           </div>
           <div>
-            <h2 className=" text-xl mb-2">গুরুত্বপূর্ণ লিঙ্ক</h2>
+            <h2 className=" text-xl font-medium mb-2">গুরুত্বপূর্ণ লিঙ্ক</h2>
             <ul className=" text-sm text-gray-100">
               <li className=" cursor-pointer hover:underline">লগইন</li>
               <li className=" cursor-pointer hover:underline">রেজিস্টার</li>
@@ -35,7 +35,7 @@ function Footer() {
             </ul>
           </div>
           <div>
-            <h2 className=" text-xl mb-2">জনপ্রিয় সেবা</h2>
+            <h2 className=" text-xl font-medium mb-2">জনপ্রিয় সেবা</h2>
             <ul className=" text-sm text-gray-100">
               <li className=" cursor-pointer hover:underline">
                 গ্রাফিক্স ডিজাইন
@@ -59,7 +59,7 @@ function Footer() {
             </ul>
           </div>
           <div>
-            <h2 className=" text-xl mb-2">যোগাযোগ</h2>
+            <h2 className=" text-xl font-medium mb-2">যোগাযোগ</h2>
             <ul className="text-gray-100">
               <li className="flex items-center gap-1">
                 <FaPhone className="text-blue-800" />
