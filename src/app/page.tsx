@@ -1,7 +1,8 @@
-import Collapses from "@/components/HomePage/Collapses";
+import CategoryCards from "@/components/HomePage/CategoryCards";
 import HeroCarousel from "@/components/HomePage/HeroCarousel";
 import Reviews from "@/components/HomePage/Reviews";
 import ServicesTab from "@/components/HomePage/ServicesTab";
+import WebHostingCollapse from "@/components/HomePage/WebHostingCollapse";
 // import Card from "@/components/PricingCard/Card";
 
 export default function Home() {
@@ -9,13 +10,14 @@ export default function Home() {
     <div>
       <HeroCarousel />
       <ServicesTab />
+      <CategoryCards />
       {/* <div className="flex justify-center gap-5 my-10 px-5 mx-auto w-full ">
         <Card />
         <Card />
         <Card />
       </div> */}
       <Reviews />
-      <Collapses />
+      <WebHostingCollapse />
     </div>
   );
 }

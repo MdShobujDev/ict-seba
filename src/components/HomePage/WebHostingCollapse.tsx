@@ -1,9 +1,7 @@
 "use client";
-import { CaretRightOutlined } from "@ant-design/icons";
 import type { CollapseProps } from "antd";
-import { Collapse, theme } from "antd";
 import type { CSSProperties } from "react";
-import React from "react";
+import Collapses from "../ui/Collapses";
 
 const getItems_1: (panelStyle: CSSProperties) => CollapseProps["items"] = (
   panelStyle
@@ -111,15 +109,7 @@ const getItems_2: (panelStyle: CSSProperties) => CollapseProps["items"] = (
     style: panelStyle,
   },
 ];
-
-function Collapses() {
-  const { token } = theme.useToken();
-  const panelStyle: React.CSSProperties = {
-    marginBottom: 24,
-    background: token.colorFillAlter,
-    borderRadius: token.borderRadiusLG,
-    border: "none",
-  };
+function WebHostingCollapse() {
   return (
     <section className=" max-w-7xl mx-auto px-5 py-10">
       <div className="text-center">
@@ -129,30 +119,14 @@ function Collapses() {
       </div>
       <div className=" flex md:flex-row flex-col justify-between md:gap-5 mt-5">
         <div className=" flex-1 ">
-          <Collapse
-            bordered={false}
-            accordion
-            expandIcon={({ isActive }) => (
-              <CaretRightOutlined rotate={isActive ? 90 : 0} />
-            )}
-            style={{ background: token.colorBgContainer }}
-            items={getItems_1(panelStyle)}
-          />
+          <Collapses getItems={getItems_1} />
         </div>
         <div className="flex-1 ">
-          <Collapse
-            bordered={false}
-            accordion
-            expandIcon={({ isActive }) => (
-              <CaretRightOutlined rotate={isActive ? 90 : 0} />
-            )}
-            style={{ background: token.colorBgContainer }}
-            items={getItems_2(panelStyle)}
-          />
+          <Collapses getItems={getItems_2} />
         </div>
       </div>
     </section>
   );
 }
 
-export default Collapses;
+export default WebHostingCollapse;

@@ -1,6 +1,6 @@
 "use client";
 import { FaStar } from "react-icons/fa6";
-import EmblaCarousel from "../EmblaCarouse";
+import EmblaCarousel from "../ui/EmblaCarouse";
 
 function Reviews() {
   return (

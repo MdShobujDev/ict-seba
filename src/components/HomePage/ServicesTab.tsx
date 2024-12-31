@@ -195,7 +195,7 @@ const dobtorServices = () => {
 };
 const EServices = () => {
   return (
-    <div className=" grid grid-cols-[repeat(auto-fit,_minmax(150px,_1fr))] gap-10 w-full">
+    <div className="grid grid-cols-[repeat(auto-fit,_minmax(150px,_1fr))] gap-10 w-full">
       <Item>
         <Image src={Admission} alt="Admission" width={60} />
         ভর্তি আবেদন
