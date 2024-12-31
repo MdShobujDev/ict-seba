@@ -1,4 +1,4 @@
-import Collapse from "@/components/HomePage/Collapse";
+import Collapses from "@/components/HomePage/Collapses";
 import HeroCarousel from "@/components/HomePage/HeroCarousel";
 import Reviews from "@/components/HomePage/Reviews";
 import ServicesTab from "@/components/HomePage/ServicesTab";
@@ -15,7 +15,7 @@ export default function Home() {
         <Card />
       </div> */}
       <Reviews />
-      <Collapse />
+      <Collapses />
     </div>
   );
 }

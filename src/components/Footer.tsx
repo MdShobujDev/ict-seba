@@ -62,28 +62,28 @@ function Footer() {
             <h2 className=" text-xl font-medium mb-2">যোগাযোগ</h2>
             <ul className="text-gray-100">
               <li className="flex items-center gap-1">
-                <FaPhone className="text-blue-800" />
+                <FaPhone className="text-gray-200" />
                 +88 01500000000
               </li>
               <li className="flex items-center gap-1">
-                <FaSquareWhatsapp className="text-green-800" />
+                <FaSquareWhatsapp className="text-gray-200" />
                 +88 01500000000
               </li>
               <li className="flex items-center gap-1">
-                <FaEnvelope className="text-orange-700" />
+                <FaEnvelope className="text-gray-200" />
                 info@ictseba.com
               </li>
               <li className="flex gap-1">
-                <FaLocationDot className="text-blue-800 mt-1.5" />
+                <FaLocationDot className="text-gray-200  mt-1.5" />
                 Bogura, Zip 0000, Dhaka, Bangladesh
               </li>
             </ul>
             <ul className="flex items-center gap-3 mt-2 text-2xl">
               <li>
-                <FaFacebook className="text-blue-800 cursor-pointer transition-all duration-200 ease-linear hover:scale-[.9]" />
+                <FaFacebook className="text-gray-200 cursor-pointer transition-all duration-200 ease-linear hover:scale-[.9]" />
               </li>
               <li>
-                <FaLinkedin className="text-sky-800 cursor-pointer transition-all duration-200 ease-linear hover:scale-[.9]" />
+                <FaLinkedin className="text-gray-200  cursor-pointer transition-all duration-200 ease-linear hover:scale-[.9]" />
               </li>
               <li>
                 <FaSquareXTwitter className="cursor-pointer transition-all duration-200 ease-linear hover:scale-[.9]" />
