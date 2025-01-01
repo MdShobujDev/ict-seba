@@ -11,7 +11,7 @@ import {
 function Footer() {
   return (
     <footer className=" bg-primary text-white">
-      <div>
+      <div className="max-w-7xl mx-auto">
         <div className=" grid min-[950px]:grid-cols-5 grid-cols-2 gap-x-5 gap-y-10 px-5 py-3">
           <div className="col-span-2">
             <h2 className=" text-xl font-medium mb-2">আমাদের সম্পর্কে</h2>
@@ -19,6 +19,17 @@ function Footer() {
               ICT Seba ওয়েব ডিজাইন, অ্যাপ ডেভেলপমেন্ট, ক্লাউড সফটওয়্যারসহ
               আধুনিক প্রযুক্তি সেবা প্রদানকারী প্রতিষ্ঠান।
             </p>
+            <ul className="flex items-center gap-3 mt-2 text-2xl">
+              <li>
+                <FaFacebook className="text-white cursor-pointer transition-all duration-200 ease-linear hover:scale-[.9]" />
+              </li>
+              <li>
+                <FaLinkedin className="text-white  cursor-pointer transition-all duration-200 ease-linear hover:scale-[.9]" />
+              </li>
+              <li>
+                <FaSquareXTwitter className="cursor-pointer transition-all duration-200 ease-linear hover:scale-[.9]" />
+              </li>
+            </ul>
           </div>
           <div>
             <h2 className=" text-xl font-medium mb-2">গুরুত্বপূর্ণ লিঙ্ক</h2>
@@ -62,31 +73,20 @@ function Footer() {
             <h2 className=" text-xl font-medium mb-2">যোগাযোগ</h2>
             <ul className="text-gray-100">
               <li className="flex items-center gap-1">
-                <FaPhone className="text-gray-200" />
+                <FaPhone className="text-white" />
                 +88 01500000000
               </li>
               <li className="flex items-center gap-1">
-                <FaSquareWhatsapp className="text-gray-200" />
+                <FaSquareWhatsapp className="text-white" />
                 +88 01500000000
               </li>
               <li className="flex items-center gap-1">
-                <FaEnvelope className="text-gray-200" />
+                <FaEnvelope className="text-white" />
                 info@ictseba.com
               </li>
               <li className="flex gap-1">
-                <FaLocationDot className="text-gray-200  mt-1.5" />
-                Bogura, Zip 0000, Dhaka, Bangladesh
-              </li>
-            </ul>
-            <ul className="flex items-center gap-3 mt-2 text-2xl">
-              <li>
-                <FaFacebook className="text-gray-200 cursor-pointer transition-all duration-200 ease-linear hover:scale-[.9]" />
-              </li>
-              <li>
-                <FaLinkedin className="text-gray-200  cursor-pointer transition-all duration-200 ease-linear hover:scale-[.9]" />
-              </li>
-              <li>
-                <FaSquareXTwitter className="cursor-pointer transition-all duration-200 ease-linear hover:scale-[.9]" />
+                <FaLocationDot className="text-white  mt-1.5" />
+                Kurigram, Zip 0000, Rangpur, Bangladesh
               </li>
             </ul>
           </div>

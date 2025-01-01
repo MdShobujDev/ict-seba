@@ -25,7 +25,7 @@ function Header() {
         <HeaderTopBar />
       </div>
       <header className=" sticky top-0 z-50 shadow">
-        <nav className="  bg-white shadow max-w-7xl mx-auto px-5 py-2 flex items-center justify-between">
+        <nav className="  bg-white max-w-7xl mx-auto px-5 py-2 flex items-center justify-between relative">
           <Link href="/" className=" cursor-pointer">
             <Image src={Logo} alt="logo" width={150} height={100} />
           </Link>
@@ -49,7 +49,7 @@ function Header() {
                   <div className=" cursor-pointer px-3 py-5 group-hover:text-primary transition-all duration-200 ease-linear font-medium">
                     সফটওয়্যার
                   </div>
-                  <div className="hidden group-hover:flex absolute right-0 left-0 bg-primary text-white p-3 items-center justify-between">
+                  <div className="hidden group-hover:flex absolute right-0 left-0 bg-primary text-white p-7 items-center justify-between max-w-7xl">
                     <div>
                       <h2 className="text-lg">ব্যবসায়িক সফটওয়্যার</h2>
                       <ul className="flex flex-col text-sm mt-2 ml-2 gap-1">

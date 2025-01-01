@@ -2,12 +2,21 @@ import Bandwidth from "@/../public/images/CategoryCard/bandwidth.png";
 import CloudServer from "@/../public/images/CategoryCard/cloud-server.png";
 import DataSever from "@/../public/images/CategoryCard/data-server.png";
 import VPS from "@/../public/images/CategoryCard/vps.png";
-import Image from "next/image";
+import Image, { StaticImageData } from "next/image";
 import Link from "next/link";
 import React from "react";
 import { TbCurrencyTaka } from "react-icons/tb";
 
-const cardItems = [
+interface CardItem {
+  id: number;
+  title: string;
+  description: string;
+  price: string;
+  link: string;
+  logo: StaticImageData;
+  bgColor: string;
+}
+const cardItems: CardItem[] = [
   {
     id: 1,
     title: "ওয়েব হোস্টিং",
@@ -63,7 +72,7 @@ const CategoryCards: React.FC = () => {
           <Link
             href={card.link}
             key={card.id}
-            className="flex flex-col items-center gap-3 px-3 py-5 rounded-lg shadow-md w-full hover:-translate-y-2 transition-all duration-300 ease-linear cursor-pointer group text-center"
+            className="flex flex-col items-center gap-4 px-3 py-8 rounded-lg shadow-md w-full hover:-translate-y-2 transition-all duration-300 ease-linear cursor-pointer group text-center"
             style={{ backgroundColor: card.bgColor }}
           >
             <div>
@@ -81,8 +90,8 @@ const CategoryCards: React.FC = () => {
                 <span className=" self-end">/mo</span>
               </div>
             </>
-            <div className=" mt-3 font-medium cursor-pointer group-hover:text-primary transition-all group-hover:underline">
-              Learn More
+            <div className=" mt-3 cursor-pointer group-hover:text-primary  transition-all underline underline-offset-4 text-blue-600">
+              আরো জানুন
             </div>
           </Link>
         ))}
