@@ -49,7 +49,7 @@ function Header() {
                   <div className=" cursor-pointer px-3 py-5 group-hover:text-primary transition-all duration-200 ease-linear font-medium">
                     সফটওয়্যার
                   </div>
-                  <div className="hidden group-hover:flex absolute right-0 left-0 bg-primary text-white p-7 items-center justify-between max-w-7xl">
+                  <div className="hidden group-hover:flex absolute right-0 left-0  bg-primary text-white p-10 items-center justify-between max-w-7xl">
                     <div>
                       <h2 className="text-lg">ব্যবসায়িক সফটওয়্যার</h2>
                       <ul className="flex flex-col text-sm mt-2 ml-2 gap-1">
