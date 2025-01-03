@@ -117,7 +117,7 @@ function AboutHostingSolutions() {
         </div>
 
         {/* Power Your Website with Reliable Web Hosting */}
-        <div className=" flex gap-5 flex-col-reverse min-[800px]:flex-row">
+        <div className=" flex gap-5 flex-col min-[800px]:flex-row">
           <div className=" bg-indigo-100 rounded-md p-10 w-full">
             <h1 className=" text-2xl font-medium mb-1">
               বিশ্বাসযোগ্য ওয়েব হোস্টিংয়ের মাধ্যমে আপনার ওয়েবসাইট শক্তিশালী
