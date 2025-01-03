@@ -1,4 +1,4 @@
-import AWS_Banner from "@/../public/images/AWS-banner.jpg";
+import AWS_Banner from "@/../public/images/Homepage/AWS-banner.jpg";
 import { TbCurrencyTaka } from "react-icons/tb";
 
 function DomainSearch() {
@@ -33,28 +33,28 @@ function DomainSearch() {
             </button>
           </div>
           <div className=" flex justify-center mt-10 space-x-3">
-            <div className=" flex flex-col border-r sm:px-5 px-3">
+            <div className=" flex flex-col items-center border-r sm:px-5 px-3">
               <span>.com</span>
               <span className=" flex items-center">
                 <TbCurrencyTaka />
                 850
               </span>
             </div>
-            <div className=" flex flex-col border-r sm:px-5 px-3">
+            <div className=" flex flex-col items-center border-r sm:px-5 px-3">
               <span>.net</span>
               <span className=" flex items-center">
                 <TbCurrencyTaka />
                 1100
               </span>
             </div>
-            <div className=" flex flex-col border-r sm:px-5 px-3">
+            <div className=" flex flex-col items-center border-r sm:px-5 px-3">
               <span>.pro</span>
               <span className=" flex items-center">
                 <TbCurrencyTaka />
                 1300
               </span>
             </div>
-            <div className=" flex flex-col  sm:px-5 px-3">
+            <div className=" flex flex-col items-center sm:px-5 px-3">
               <span>.org</span>
               <span className=" flex items-center">
                 <TbCurrencyTaka />

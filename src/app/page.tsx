@@ -1,3 +1,4 @@
+import AboutHostingSolutions from "@/components/HomePage/AboutHostingSolutions";
 import Banner from "@/components/HomePage/Banner";
 import CategoryCards from "@/components/HomePage/CategoryCards";
 import DomainSearch from "@/components/HomePage/DomainSearch";
@@ -14,11 +15,7 @@ export default function Home() {
       <ServicesTab />
       <CategoryCards />
       <Banner />
-      {/* <div className="flex justify-center gap-5 my-10 px-5 mx-auto w-full ">
-        <Card />
-        <Card />
-        <Card />
-      </div> */}
+      <AboutHostingSolutions />
       <DomainSearch />
       <Reviews />
       <WebHostingCollapse />

@@ -1,7 +1,7 @@
-import Bandwidth from "@/../public/images/CategoryCard/bandwidth.png";
-import CloudServer from "@/../public/images/CategoryCard/cloud-server.png";
-import DataSever from "@/../public/images/CategoryCard/data-server.png";
-import VPS from "@/../public/images/CategoryCard/vps.png";
+import Bandwidth from "@/../public/images/Homepage/CategoryCard/bandwidth.png";
+import CloudServer from "@/../public/images/Homepage/CategoryCard/cloud-server.png";
+import DataSever from "@/../public/images/Homepage/CategoryCard/data-server.png";
+import VPS from "@/../public/images/Homepage/CategoryCard/vps.png";
 import Image, { StaticImageData } from "next/image";
 import Link from "next/link";
 import React from "react";

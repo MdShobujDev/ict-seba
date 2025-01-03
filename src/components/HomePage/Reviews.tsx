@@ -4,7 +4,7 @@ import EmblaCarousel from "../ui/EmblaCarouse";
 
 function Reviews() {
   return (
-    <section className=" max-w-7xl mx-auto overflow-hidden flex min-[950px]:flex-row flex-col px-5 py-8 gap-5">
+    <section className=" max-w-7xl mx-auto overflow-hidden flex min-[950px]:flex-row flex-col px-5 py-8 gap-5 mt-5">
       <div className=" flex flex-col items-center ">
         <h1 className=" text-3xl">
           {`১০০০-এর বেশি ব্যবসা প্রতিষ্ঠান আইসিটি-সেবা’র উপর আস্থা রাখে অতুলনীয়

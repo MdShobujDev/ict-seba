@@ -1,4 +1,4 @@
-import Banner_Bg from "@/../public/images/banner_bg.jpg";
+import Banner_Bg from "@/../public/images/Homepage/banner_bg.jpg";
 import Link from "next/link";
 import React from "react";
 
