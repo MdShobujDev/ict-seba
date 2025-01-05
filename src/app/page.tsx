@@ -11,7 +11,6 @@ import WebHostingCollapse from "@/components/HomePage/WebHostingCollapse";
 export default function Home() {
   return (
     <div>
-      <h1>Hello world</h1>
       <HeroCarousel />
       <ServicesTab />
       <CategoryCards />
